@@ -32,9 +32,11 @@ class App extends Component {
         <h1 style={{color:"skyblue"}}>Employee List</h1>
         <table border="1" style={myStyle}>
           <thead style={{backgroundColor:"cyan"}}>
-            <th style={{padding:"10px"}}>Employee ID</th>
-            <th>Employee Name</th>
-            <th>Employee Email ID</th>
+            <tr>
+              <th style={{padding:"10px"}}>Employee ID</th>
+              <th>Employee Name</th>
+              <th>Employee Email ID</th>
+            </tr>
           </thead>
           <tbody>
             {rows}
